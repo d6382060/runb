@@ -1,0 +1,260 @@
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?tomleg');
+    src:  url('../fonts/icomoon.eot?tomleg#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?tomleg') format('truetype'),
+      url('../fonts/icomoon.woff?tomleg') format('woff'),
+      url('../fonts/icomoon.svg?tomleg#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+.main{
+    margin-top: 15px;;
+    margin-left: 220px;
+    width: 980px;
+    height: 455px;
+}
+.focus{
+    float: left;
+}
+.newsflash{
+    float: right;
+    margin-left: 9px;
+    width: 250px;
+    height: 455px;
+
+    border: 2px solid #e4e4e4;
+}
+.newsflash_top{
+    position: relative;
+    width: 250px;
+    height: 35px;
+    border-bottom: 1px dotted #e4e4e4;
+}
+.newsflash_nav{
+    width: 250px;
+    height: 130px;
+}
+.nesflash_for{
+    position: relative;
+    height: 290px;
+}
+.nesflash_for ul li{
+    position: relative;
+    float: left;
+    text-align: center;
+    margin-left: -1px;
+    margin-top: -1px;
+    width: 62.5px;
+    height: 70px;
+   border: 1px solid #e4e4e4;
+}
+.nesflash_for img{
+margin-top: 9px;
+height: 75px;
+}
+.newsflash_top h3{
+    line-height: 35px;
+    position: absolute;
+    left: 10px;
+    font-size: 14px;
+    color: #333333;
+    font-weight: 400;
+ 
+}
+.newsflash_top a{
+    line-height: 35px;
+    position: absolute;
+    right: 15px;
+    font-size: 14px;
+    color: #666;
+}
+.newsflash_top a::after{
+    content: '\e920';
+    font-family: 'icomoon';
+    margin-left: 10px;
+}
+.newsflash_nav ul li {
+    padding: 5px 0 0 15px;
+}
+.newsflash_nav ul li a{
+    font-size: 12px;
+    color: #333;
+}
+.newsflash_nav ul li a:hover{
+    color:red
+}
+.newsflash_nav ul li a span{
+    font-weight: 700;
+    font-size: 14px;
+    color: #333;
+}
+.nesflash_for ul li a i{
+    display: inline-block;
+    width: 21px;
+    height: 25px;
+    margin-top: 10px;
+    background-color: red;
+    background: url(../images/icons.png) -17px -17px;
+}
+.nesflash_for ul li img{
+    top: 0;
+    right: 0;
+    position: absolute;
+    height: 16px;
+}
+/* <!-- recom 模块 start --> */
+.recom{
+    height: 165px;
+    margin-top: 10px;
+}
+.recom_hd{
+    position: relative;
+    float: left;
+    width: 206px;
+    height: 165px;
+    background-color: #5c5251;
+}
+.recom_hd img{
+    position: absolute;
+    left: 70px;
+    top: 30px;
+}
+.recom_hd h3{
+    position: absolute;
+    left: 60px;
+    top: 98px;
+    font-size: 18px;
+    color: #ffffff;
+}
+.recom_bd{
+    float: right;
+    height: 165px;
+    width: 994px;
+    background-color: #ebebeb;
+}
+.recom_bd ul li{
+    position: relative;
+    float: left;
+}
+.recom_bd ul li img{
+    width: 248px;
+    height: 163px;
+}
+.recom_bd ul li:nth-child(-n+3)::after{
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 10px;
+    width: 1px;
+    height: 145px;
+    background-color: #dddddd;
+}
+/* <!-- recom 模块 end --> */
+/* <!-- 猜你喜欢模块 start --> */
+.like{
+    height: 30px;
+    margin-top: 30px;
+}
+.like h3{
+    float: left;
+}
+.like p{
+    float: right;
+}
+.like_wu{
+    position: relative;
+    height: 230px;
+
+}
+.like_wu ul li{
+    position: relative;
+    float: left;
+    height: 230px;
+    width: 200px;
+
+}
+.like_wu ul li img{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    width: 160px;
+    height: 140px;
+}
+.like_wu ul li a p{
+    position: absolute;
+    bottom: 35px;
+    left: 40px;
+} 
+.like_wu ul li a i{
+    position: absolute;
+    bottom: 10px;
+    left: 35px;
+    color: #df3033;
+    font-size: 18px;
+}
+/* <!-- 猜你喜欢模块 end --> */
+/* 家用电器 */
+.box_hd{
+    height: 30px;
+    border-bottom: 2px solid #c81623;
+}
+.box_hd h3{
+    float: left;
+    font-size: 18px;
+    color: #c81623;
+    font-weight: 400;
+}
+
+.tab_list{
+    float: right;
+    line-height: 30px;
+}
+.tab_list ul li{
+    float: left;
+}
+.tab_list ul li a{
+    margin: 0 15px;
+}
+.floor .w{
+    margin-top: 30px;
+}
+.box_bd{
+    height: 361px;
+}
+.tab_list_item>div{
+    float: left;
+    height: 361px;
+}
+.col_210{
+    width: 210px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+.col_210 ul li{
+    float: left;
+    width: 85px;
+    height: 34px;
+    border-bottom: 1px solid #ededed;
+    text-align: center;
+    line-height: 34px;
+    margin-right: 10px;
+}
+.col_210 ul{
+    padding-left: 12px;
+}
+.col_329{
+    width: 329px;
+}
+.col_221{
+    width: 221px;
+    border-right: 1px solid #ccc;
+}
+.col_219{
+    width: 219px;
+}
+.bb{
+    display: block;
+    border-bottom: 1px solid #ccc;
+}

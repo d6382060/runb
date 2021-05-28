@@ -1,0 +1,123 @@
+.w{
+    width: 1200px;
+    margin: 0 auto;
+}
+.style_red{
+    color: #c81632;
+}
+.header{
+    height: 85px;
+    line-height: 95px;
+    border-bottom: 2px solid #b1191a;
+}
+.registerarea{
+    position: relative;
+    height: 523px;
+    margin-top: 20px;
+    border: 1px solid #dfdfdf;
+}
+.registerarea .reg_hd{
+    position: relative;
+    height: 42px;
+    background-color: #ececec;
+    border-bottom: 1px solid #dfdfdf;
+}
+
+.registerarea .reg_hd h4{
+    position: absolute;
+    left: 11px;
+    font-size:18px;
+    color: #333333;
+    line-height: 40px;
+    font-weight: 400;
+}
+.registerarea .reg_hd p{
+    position: absolute;
+    right: 12px;
+    font-size: 14px;
+    color: #333333;
+    line-height: 40px;
+}
+.reg_form{
+    width: 600px;
+    margin: 50px  auto 0;
+
+}
+.erro{
+    color: #df3033;
+}
+.reg_form ul li label{
+    display: inline-block;
+    width: 88px;
+    color: #999999;
+    text-align: right;
+}
+.reg_form ul li{
+    margin-bottom: 20px;
+}
+.reg_form ul li .inp{
+    width: 242px;
+    height: 37px;
+    border: 1px solid #999999;
+}
+.erro_icon,
+.success_icon{
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    background: url(../images/error.png) no-repeat;
+    margin-top: -2px;
+}
+.success{
+    color: green;
+}
+.success_icon{
+    background: url(../images/success.png) no-repeat;
+}
+.safe{
+    color: #999999;
+    padding-left: 167px;
+}
+.safe em{
+    padding: 0 12px;
+    /* background-color: pink; */
+    color: #fff;
+}
+.ruo{
+    background-color: #de1111;
+}
+.zhong{
+    background-color: #40b83f;
+}
+.qian{
+    background-color: #f79100;
+}
+.agree{
+    padding-left: 100px;
+}
+.agree input{
+    vertical-align: middle;
+}
+.agree a{
+    color: #1ba1e6;
+}
+.agree a:hover{
+    text-decoration: underline;
+}
+.btn{
+    width: 200px;
+    height: 34px;
+    background-color: #c81623;
+    font-size: 14px;
+    color: #fff;
+    margin: 30px 0 0 110px;
+}
+.links ul li{
+    float: left;
+    margin-left: 40px;
+    margin-top: 25px;
+}
+.copyright{
+    text-align: center;
+}
